@@ -1,0 +1,16 @@
+# Speech
+SpeechRecognition>=3.10.0
+gTTS>=2.5.0
+pygame>=2.5.0
+pyaudio>=0.2.14
+
+# NLP
+spacy>=3.7.0
+# After install, run: python -m spacy download es_core_news_sm
+
+# Vocabulary / conjugation
+mlconjug3>=3.9.0
+deep-translator>=1.11.4
+
+# UI
+rich>=13.7.0

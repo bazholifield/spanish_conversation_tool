@@ -1,0 +1,149 @@
+{
+  "patterns": [
+    {
+      "id": "family",
+      "triggers": {
+        "keywords": ["familia", "hermano", "hermana", "madre", "padre", "hijo", "hija", "abuelo", "abuela", "tío", "tía", "primo", "prima", "mamá", "papá"]
+      },
+      "follow_ups": [
+        "¿Cuántos hermanos tienes?",
+        "¿Dónde vive tu familia?",
+        "¿Cómo es tu relación con tu familia?",
+        "¿Con quién vives actualmente?",
+        "¿Qué es lo que más te gusta hacer con tu familia?",
+        "¿Cómo celebran las fiestas en tu familia?"
+      ]
+    },
+    {
+      "id": "work",
+      "triggers": {
+        "keywords": ["trabajo", "trabajar", "empresa", "oficina", "jefe", "colega", "profesión", "carrera", "negocio", "sueldo"]
+      },
+      "follow_ups": [
+        "¿Cuánto tiempo llevas trabajando en ese campo?",
+        "¿Qué es lo que más te gusta de tu trabajo?",
+        "¿Cómo es un día típico en tu trabajo?",
+        "¿Fue difícil encontrar ese trabajo?",
+        "¿Te gustaría cambiar de trabajo en el futuro?",
+        "¿Trabajas desde casa o en una oficina?"
+      ]
+    },
+    {
+      "id": "study",
+      "triggers": {
+        "keywords": ["estudiar", "universidad", "escuela", "clase", "curso", "carrera", "examen", "estudiante", "profesor", "asignatura"]
+      },
+      "follow_ups": [
+        "¿Qué estudias exactamente?",
+        "¿En qué universidad o escuela estudias?",
+        "¿Cuál es tu asignatura favorita?",
+        "¿Cuántos años llevas estudiando eso?",
+        "¿Qué quieres hacer cuando termines tus estudios?",
+        "¿Cómo equilibras los estudios con tu vida personal?"
+      ]
+    },
+    {
+      "id": "food",
+      "triggers": {
+        "keywords": ["comida", "comer", "cocinar", "restaurante", "plato", "cocina", "ingrediente", "receta", "desayuno", "almuerzo", "cena", "hambre"]
+      },
+      "follow_ups": [
+        "¿Sabes cocinar ese plato?",
+        "¿Cuál es tu restaurante favorito?",
+        "¿Prefieres cocinar en casa o comer fuera?",
+        "¿Hay algún plato típico de tu país que te encante?",
+        "¿Tienes alguna restricción alimentaria?",
+        "¿Qué desayunas normalmente?"
+      ]
+    },
+    {
+      "id": "travel",
+      "triggers": {
+        "keywords": ["viajar", "viaje", "país", "ciudad", "vacaciones", "visitar", "turismo", "vuelo", "hotel", "playa", "montaña", "extranjero"]
+      },
+      "follow_ups": [
+        "¿Cuál ha sido tu viaje favorito?",
+        "¿Adónde te gustaría viajar en el futuro?",
+        "¿Prefieres las playas o las montañas?",
+        "¿Cuánto tiempo estuviste allí?",
+        "¿Qué fue lo que más te sorprendió de ese lugar?",
+        "¿Viajaste solo o acompañado?"
+      ]
+    },
+    {
+      "id": "hobbies",
+      "triggers": {
+        "keywords": ["deporte", "música", "leer", "bailar", "nadar", "jugar", "pintar", "dibujar", "tocar", "cantar", "guitarra", "piano", "fútbol", "tenis", "yoga", "correr"]
+      },
+      "follow_ups": [
+        "¿Desde cuándo practicas eso?",
+        "¿Eres muy bueno en eso?",
+        "¿Con qué frecuencia lo haces?",
+        "¿Lo haces solo o con amigos?",
+        "¿Cómo empezaste con ese pasatiempo?",
+        "¿Te gustaría llegar a ser profesional en eso?"
+      ]
+    },
+    {
+      "id": "daily_life",
+      "triggers": {
+        "keywords": ["rutina", "mañana", "tarde", "noche", "levantarse", "dormir", "descansar", "semana", "día", "meses", "horario", "tiempo"]
+      },
+      "follow_ups": [
+        "¿A qué hora te levantas normalmente?",
+        "¿Eres más persona de mañana o de noche?",
+        "¿Qué haces para relajarte después de un día largo?",
+        "¿Tienes alguna rutina que nunca cambies?",
+        "¿Cómo organizas tu tiempo libre?"
+      ]
+    },
+    {
+      "id": "friends",
+      "triggers": {
+        "keywords": ["amigo", "amiga", "compañero", "conocido", "salir", "quedar", "fiesta", "reunión", "grupo"]
+      },
+      "follow_ups": [
+        "¿Cómo conociste a tus mejores amigos?",
+        "¿Con qué frecuencia quedas con tus amigos?",
+        "¿Qué os gusta hacer juntos?",
+        "¿Tienes amigos de diferentes países?",
+        "¿Prefieres salir en grupo o con una sola persona?"
+      ]
+    },
+    {
+      "id": "home",
+      "triggers": {
+        "keywords": ["casa", "piso", "apartamento", "barrio", "ciudad", "vivir", "mudarse", "habitación", "cocina", "jardín"]
+      },
+      "follow_ups": [
+        "¿Cuánto tiempo llevas viviendo allí?",
+        "¿Te gusta el barrio donde vives?",
+        "¿Vives solo o con otras personas?",
+        "¿Cómo es tu ciudad? ¿Es grande o pequeña?",
+        "¿Te gustaría mudarte algún día?"
+      ]
+    },
+    {
+      "id": "language_learning",
+      "triggers": {
+        "keywords": ["español", "aprender", "idioma", "lengua", "hablar", "estudiar", "curso", "práctica", "nivel", "clase"]
+      },
+      "follow_ups": [
+        "¿Cuánto tiempo llevas estudiando español?",
+        "¿Qué es lo más difícil del español para ti?",
+        "¿Cómo practicas el español fuera de clase?",
+        "¿Has visitado algún país hispanohablante?",
+        "¿Hay alguna palabra en español que te guste especialmente?"
+      ]
+    }
+  ],
+  "fallbacks": [
+    "¡Interesante! ¿Puedes contarme más sobre eso?",
+    "¿Por qué dices eso?",
+    "¿Desde cuándo te interesa ese tema?",
+    "¿Cómo te hace sentir eso?",
+    "¿Hay algo más que quieras añadir?",
+    "¿Eso es algo que haces a menudo?",
+    "¿Qué fue lo más memorable de esa experiencia?"
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "intro_name",
+    "text": "¡Hola! ¿Cómo te llamas y de dónde eres?",
+    "topic": "introduction",
+    "difficulty": "beginner",
+    "keywords_to_track": ["nombre", "ciudad", "país", "origen"]
+  },
+  {
+    "id": "intro_hobbies",
+    "text": "¿Cuáles son tus pasatiempos favoritos?",
+    "topic": "hobbies",
+    "difficulty": "beginner",
+    "keywords_to_track": ["deporte", "música", "leer", "cocinar", "viajar"]
+  },
+  {
+    "id": "intro_work",
+    "text": "¿A qué te dedicas? ¿Trabajas o estudias?",
+    "topic": "work_study",
+    "difficulty": "beginner",
+    "keywords_to_track": ["trabajo", "estudio", "universidad", "empresa", "profesión"]
+  },
+  {
+    "id": "intro_family",
+    "text": "¿Puedes hablarme un poco sobre tu familia?",
+    "topic": "family",
+    "difficulty": "beginner",
+    "keywords_to_track": ["hermano", "hermana", "madre", "padre", "hijo", "hija"]
+  },
+  {
+    "id": "intro_travel",
+    "text": "¿Has viajado alguna vez a un país de habla hispana?",
+    "topic": "travel",
+    "difficulty": "intermediate",
+    "keywords_to_track": ["país", "ciudad", "viaje", "vacaciones", "visitar"]
+  },
+  {
+    "id": "intro_food",
+    "text": "¿Qué tipo de comida te gusta más?",
+    "topic": "food",
+    "difficulty": "beginner",
+    "keywords_to_track": ["comida", "plato", "cocina", "restaurante", "gustar"]
+  },
+  {
+    "id": "intro_weekend",
+    "text": "¿Qué sueles hacer los fines de semana?",
+    "topic": "daily_life",
+    "difficulty": "beginner",
+    "keywords_to_track": ["fin de semana", "salir", "amigos", "descansar", "actividad"]
+  },
+  {
+    "id": "intro_language",
+    "text": "¿Por qué estás aprendiendo español?",
+    "topic": "language_learning",
+    "difficulty": "beginner",
+    "keywords_to_track": ["aprender", "idioma", "lengua", "español", "razón"]
+  }
+]
